@@ -1,0 +1,27 @@
+[0.835s] Invoking command in '/home/lhy/ws01_plumbing/src/py02_service': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/lhy/ws01_plumbing/build/py02_service/prefix_override:/home/lhy/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/lhy/ws01_plumbing/build/py02_service/build install --record /home/lhy/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed
+[1.134s] running egg_info
+[1.134s] writing ../../build/py02_service/py02_service.egg-info/PKG-INFO
+[1.135s] writing dependency_links to ../../build/py02_service/py02_service.egg-info/dependency_links.txt
+[1.135s] writing entry points to ../../build/py02_service/py02_service.egg-info/entry_points.txt
+[1.135s] writing requirements to ../../build/py02_service/py02_service.egg-info/requires.txt
+[1.135s] writing top-level names to ../../build/py02_service/py02_service.egg-info/top_level.txt
+[1.137s] reading manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[1.138s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[1.138s] running build
+[1.138s] running build_py
+[1.138s] copying py02_service/demo02_client_py.py -> /home/lhy/ws01_plumbing/build/py02_service/build/lib/py02_service
+[1.138s] running install
+[1.138s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.139s]   warnings.warn(
+[1.139s] running install_lib
+[1.139s] copying /home/lhy/ws01_plumbing/build/py02_service/build/lib/py02_service/demo02_client_py.py -> /home/lhy/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service
+[1.140s] byte-compiling /home/lhy/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service/demo02_client_py.py to demo02_client_py.cpython-310.pyc
+[1.140s] running install_data
+[1.141s] running install_egg_info
+[1.143s] removing '/home/lhy/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info' (and everything under it)
+[1.143s] Copying ../../build/py02_service/py02_service.egg-info to /home/lhy/ws01_plumbing/install/py02_service/lib/python3.10/site-packages/py02_service-0.0.0-py3.10.egg-info
+[1.145s] running install_scripts
+[1.168s] Installing demo01_server_py script to /home/lhy/ws01_plumbing/install/py02_service/lib/py02_service
+[1.169s] Installing demo02_client_py script to /home/lhy/ws01_plumbing/install/py02_service/lib/py02_service
+[1.169s] writing list of installed files to '/home/lhy/ws01_plumbing/build/py02_service/install.log'
+[1.204s] Invoked command in '/home/lhy/ws01_plumbing/src/py02_service' returned '0': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/lhy/ws01_plumbing/build/py02_service/prefix_override:/home/lhy/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/lhy/ws01_plumbing/build/py02_service/build install --record /home/lhy/ws01_plumbing/build/py02_service/install.log --single-version-externally-managed

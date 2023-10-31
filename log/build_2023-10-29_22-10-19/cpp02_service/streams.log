@@ -1,0 +1,54 @@
+[0.064s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/lhy/ws01_plumbing/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/lhy/ws01_plumbing/install/cpp02_service
+[0.074s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.229s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.260s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.263s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.269s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.383s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.385s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.526s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.701s] -- Found base_interfaces_demo: 0.0.0 (/home/lhy/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.717s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.800s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.801s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lhy/ws01_plumbing/src/cpp02_service/include>
+[0.801s] -- Configured cppcheck exclude dirs and/or files: 
+[0.802s] -- Added test 'lint_cmake' to check CMake code style
+[0.803s] -- Added test 'uncrustify' to check C / C++ code style
+[0.803s] -- Configured uncrustify additional arguments: 
+[0.804s] -- Added test 'xmllint' to check XML markup files
+[0.806s] -- Configuring done
+[0.825s] -- Generating done
+[0.826s] -- Build files have been written to: /home/lhy/ws01_plumbing/build/cpp02_service
+[0.835s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake /home/lhy/ws01_plumbing/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/lhy/ws01_plumbing/install/cpp02_service
+[0.838s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/lhy/ws01_plumbing/build/cpp02_service -- -j8 -l8
+[0.891s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[0.892s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[4.545s] [ 75%] [32m[1mLinking CXX executable demo01_server[0m
+[4.557s] [100%] [32m[1mLinking CXX executable demo02_client[0m
+[4.699s] [100%] Built target demo01_server
+[4.712s] [100%] Built target demo02_client
+[4.730s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/lhy/ws01_plumbing/build/cpp02_service -- -j8 -l8
+[4.778s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/lhy/ws01_plumbing/build/cpp02_service
+[4.786s] -- Install configuration: ""
+[4.786s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server
+[4.786s] -- Set runtime path of "/home/lhy/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server" to ""
+[4.786s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client
+[4.787s] -- Set runtime path of "/home/lhy/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client" to ""
+[4.787s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[4.787s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[4.788s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[4.788s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[4.788s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[4.788s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[4.788s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[4.788s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[4.789s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[4.789s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[4.789s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv
+[4.789s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[4.789s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[4.790s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[4.790s] -- Installing: /home/lhy/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.xml
+[4.792s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/lhy/ws01_plumbing/build/cpp02_service

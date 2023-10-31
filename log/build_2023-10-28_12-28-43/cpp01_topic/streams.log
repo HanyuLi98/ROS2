@@ -1,0 +1,69 @@
+[0.167s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake /home/lhy/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/lhy/ws01_plumbing/install/cpp01_topic
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.288s] -- The CXX compiler identification is GNU 11.4.0
+[0.298s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.390s] -- Detecting C compile features
+[0.391s] -- Detecting C compile features - done
+[0.396s] -- Detecting CXX compiler ABI info
+[0.499s] -- Detecting CXX compiler ABI info - done
+[0.504s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.504s] -- Detecting CXX compile features
+[0.505s] -- Detecting CXX compile features - done
+[0.509s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.729s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.814s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.860s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.868s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.880s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.007s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.009s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.109s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.138s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.200s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.209s] -- Looking for pthread.h
+[1.290s] -- Looking for pthread.h - found
+[1.291s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.380s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.382s] -- Found Threads: TRUE  
+[1.573s] -- Found base_interfaces_demo: 0.0.0 (/home/lhy/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[1.576s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.650s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.650s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lhy/ws01_plumbing/src/cpp01_topic/include>
+[1.650s] -- Configured cppcheck exclude dirs and/or files: 
+[1.650s] -- Added test 'lint_cmake' to check CMake code style
+[1.651s] -- Added test 'uncrustify' to check C / C++ code style
+[1.651s] -- Configured uncrustify additional arguments: 
+[1.652s] -- Added test 'xmllint' to check XML markup files
+[1.653s] -- Configuring done
+[1.664s] -- Generating done
+[1.666s] -- Build files have been written to: /home/lhy/ws01_plumbing/build/cpp01_topic
+[1.676s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake /home/lhy/ws01_plumbing/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/lhy/ws01_plumbing/install/cpp01_topic
+[1.678s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/lhy/ws01_plumbing/build/cpp01_topic -- -j8 -l8
+[1.731s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[5.181s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[5.312s] [100%] Built target demo01_talker_str
+[5.325s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --build /home/lhy/ws01_plumbing/build/cpp01_topic -- -j8 -l8
+[5.358s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --install /home/lhy/ws01_plumbing/build/cpp01_topic
+[5.367s] -- Install configuration: ""
+[5.367s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[5.368s] -- Set runtime path of "/home/lhy/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[5.368s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[5.368s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[5.369s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[5.369s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[5.369s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[5.370s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[5.370s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[5.370s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[5.370s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[5.370s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[5.371s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[5.371s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[5.371s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[5.371s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[5.372s] -- Installing: /home/lhy/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[5.374s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble /usr/bin/cmake --install /home/lhy/ws01_plumbing/build/cpp01_topic

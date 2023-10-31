@@ -1,0 +1,10 @@
+[01m[K/home/lhy/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:22:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   22 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/lhy/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::send_goal(int)[m[K’:
+[01m[K/home/lhy/ws01_plumbing/src/cpp03_action/src/demo02_action_client.cpp:48:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 |     void send_goal([01;35m[Kint num[m[K){
+      |                    [01;35m[K~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_action_client.dir/build.make:76: CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

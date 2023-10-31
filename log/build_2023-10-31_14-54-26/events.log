@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000253] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000274] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000316] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000487] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000522] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000599] (py03_action) JobQueued: {'identifier': 'py03_action', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/lhy/ws01_plumbing/install/base_interfaces_demo')])}
+[0.000711] (py03_action) JobStarted: {'identifier': 'py03_action'}
+[0.099183] (-) TimerEvent: {}
+[0.199752] (-) TimerEvent: {}
+[0.300238] (-) TimerEvent: {}
+[0.401016] (-) TimerEvent: {}
+[0.505335] (-) TimerEvent: {}
+[0.605817] (-) TimerEvent: {}
+[0.707143] (-) TimerEvent: {}
+[0.807753] (-) TimerEvent: {}
+[0.908325] (-) TimerEvent: {}
+[1.009972] (-) TimerEvent: {}
+[1.110455] (-) TimerEvent: {}
+[1.211260] (-) TimerEvent: {}
+[1.312036] (-) TimerEvent: {}
+[1.412744] (-) TimerEvent: {}
+[1.513261] (-) TimerEvent: {}
+[1.613786] (-) TimerEvent: {}
+[1.714373] (-) TimerEvent: {}
+[1.815131] (-) TimerEvent: {}
+[1.915585] (-) TimerEvent: {}
+[2.016885] (-) TimerEvent: {}
+[2.117308] (-) TimerEvent: {}
+[2.217700] (-) TimerEvent: {}
+[2.318262] (-) TimerEvent: {}
+[2.423501] (-) TimerEvent: {}
+[2.524648] (-) TimerEvent: {}
+[2.625222] (-) TimerEvent: {}
+[2.726412] (-) TimerEvent: {}
+[2.827083] (-) TimerEvent: {}
+[2.927518] (-) TimerEvent: {}
+[3.028212] (-) TimerEvent: {}
+[3.128649] (-) TimerEvent: {}
+[3.241219] (-) TimerEvent: {}
+[3.350549] (-) TimerEvent: {}
+[3.454416] (-) TimerEvent: {}
+[3.554942] (-) TimerEvent: {}
+[3.656219] (-) TimerEvent: {}
+[3.758562] (-) TimerEvent: {}
+[3.858987] (-) TimerEvent: {}
+[3.959620] (-) TimerEvent: {}
+[4.060395] (-) TimerEvent: {}
+[4.165349] (-) TimerEvent: {}
+[4.266119] (-) TimerEvent: {}
+[4.366673] (-) TimerEvent: {}
+[4.467350] (-) TimerEvent: {}
+[4.571177] (-) TimerEvent: {}
+[4.671519] (-) TimerEvent: {}
+[4.772292] (-) TimerEvent: {}
+[4.872833] (-) TimerEvent: {}
+[4.973580] (-) TimerEvent: {}
+[5.073948] (-) TimerEvent: {}
+[5.174371] (-) TimerEvent: {}
+[5.274957] (-) TimerEvent: {}
+[5.375580] (-) TimerEvent: {}
+[5.476133] (-) TimerEvent: {}
+[5.576490] (-) TimerEvent: {}
+[5.676867] (-) TimerEvent: {}
+[5.777295] (-) TimerEvent: {}
+[5.878032] (-) TimerEvent: {}
+[5.978481] (-) TimerEvent: {}
+[6.078848] (-) TimerEvent: {}
+[6.179249] (-) TimerEvent: {}
+[6.279704] (-) TimerEvent: {}
+[6.380668] (-) TimerEvent: {}
+[6.481072] (-) TimerEvent: {}
+[6.581517] (-) TimerEvent: {}
+[6.682226] (-) TimerEvent: {}
+[6.782926] (-) TimerEvent: {}
+[6.883319] (-) TimerEvent: {}
+[6.983705] (-) TimerEvent: {}
+[7.084092] (-) TimerEvent: {}
+[7.184467] (-) TimerEvent: {}
+[7.284917] (-) TimerEvent: {}
+[7.385709] (-) TimerEvent: {}
+[7.486388] (-) TimerEvent: {}
+[7.586932] (-) TimerEvent: {}
+[7.689632] (-) TimerEvent: {}
+[7.790490] (-) TimerEvent: {}
+[7.891203] (-) TimerEvent: {}
+[7.991575] (-) TimerEvent: {}
+[8.093321] (-) TimerEvent: {}
+[8.193894] (-) TimerEvent: {}
+[8.294367] (-) TimerEvent: {}
+[8.402875] (-) TimerEvent: {}
+[8.503408] (-) TimerEvent: {}
+[8.604046] (-) TimerEvent: {}
+[8.705414] (-) TimerEvent: {}
+[8.806270] (-) TimerEvent: {}
+[8.907198] (-) TimerEvent: {}
+[9.007638] (-) TimerEvent: {}
+[9.109280] (-) TimerEvent: {}
+[9.210255] (-) TimerEvent: {}
+[9.311471] (-) TimerEvent: {}
+[9.411853] (-) TimerEvent: {}
+[9.512206] (-) TimerEvent: {}
+[9.612540] (-) TimerEvent: {}
+[9.714816] (-) TimerEvent: {}
+[9.815696] (-) TimerEvent: {}
+[9.870863] (py03_action) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py03_action', 'build', '--build-base', '/home/lhy/ws01_plumbing/build/py03_action/build', 'install', '--record', '/home/lhy/ws01_plumbing/build/py03_action/install.log', '--single-version-externally-managed'], 'cwd': '/home/lhy/ws01_plumbing/src/py03_action', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'lhy', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/lhy/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lhy', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/lhy/ws01_plumbing/src', 'TERM_PROGRAM_VERSION': '1.77.3', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1676', 'SYSTEMD_EXEC_PID': '1885', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3439', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lhy/ws01_plumbing/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lhy', 'JOURNAL_STREAM': '8:32273', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lhy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lhy-Blade-Stealth:@/tmp/.ICE-unix/1845,unix/lhy-Blade-Stealth:/tmp/.ICE-unix/1845', 'INVOCATION_ID': '4baf9f22f61844a0ad095351159e25c3', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TNVMD2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-57ea1234e3.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lhy/ws01_plumbing/install/py02_service:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/py01_topic:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:5f4e0f35-19f8-4e3c-86c8-ce14a88776e2', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lhy/ws01_plumbing/build/py03_action', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lhy/ws01_plumbing/build/py03_action/prefix_override:/home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:/home/lhy/ws01_plumbing/install/py02_service/lib/python3.10/site-packages:/home/lhy/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:/home/lhy/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/cpp01_topic'}, 'shell': False}
+[9.915847] (-) TimerEvent: {}
+[10.016359] (-) TimerEvent: {}
+[10.117122] (-) TimerEvent: {}
+[10.217746] (-) TimerEvent: {}
+[10.318267] (-) TimerEvent: {}
+[10.418727] (-) TimerEvent: {}
+[10.521283] (-) TimerEvent: {}
+[10.621945] (-) TimerEvent: {}
+[10.722637] (-) TimerEvent: {}
+[10.823403] (-) TimerEvent: {}
+[10.923757] (-) TimerEvent: {}
+[11.033168] (-) TimerEvent: {}
+[11.133723] (-) TimerEvent: {}
+[11.234556] (-) TimerEvent: {}
+[11.335273] (-) TimerEvent: {}
+[11.435790] (-) TimerEvent: {}
+[11.537335] (-) TimerEvent: {}
+[11.638414] (-) TimerEvent: {}
+[11.739420] (-) TimerEvent: {}
+[11.839806] (-) TimerEvent: {}
+[11.940317] (-) TimerEvent: {}
+[12.041313] (-) TimerEvent: {}
+[12.141723] (-) TimerEvent: {}
+[12.242306] (-) TimerEvent: {}
+[12.343347] (-) TimerEvent: {}
+[12.443990] (-) TimerEvent: {}
+[12.544763] (-) TimerEvent: {}
+[12.645141] (-) TimerEvent: {}
+[12.745456] (-) TimerEvent: {}
+[12.845800] (-) TimerEvent: {}
+[12.946260] (-) TimerEvent: {}
+[13.046664] (-) TimerEvent: {}
+[13.147029] (-) TimerEvent: {}
+[13.247426] (-) TimerEvent: {}
+[13.285710] (py03_action) StdoutLine: {'line': b'running egg_info\n'}
+[13.321994] (py03_action) StdoutLine: {'line': b'writing ../../build/py03_action/py03_action.egg-info/PKG-INFO\n'}
+[13.327313] (py03_action) StdoutLine: {'line': b'writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt\n'}
+[13.329343] (py03_action) StdoutLine: {'line': b'writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt\n'}
+[13.329801] (py03_action) StdoutLine: {'line': b'writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt\n'}
+[13.330510] (py03_action) StdoutLine: {'line': b'writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt\n'}
+[13.347552] (-) TimerEvent: {}
+[13.351349] (py03_action) StdoutLine: {'line': b"reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'\n"}
+[13.360700] (py03_action) StdoutLine: {'line': b"writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'\n"}
+[13.361489] (py03_action) StdoutLine: {'line': b'running build\n'}
+[13.361917] (py03_action) StdoutLine: {'line': b'running build_py\n'}
+[13.363090] (py03_action) StdoutLine: {'line': b'running install\n'}
+[13.366613] (py03_action) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[13.367316] (py03_action) StderrLine: {'line': b'  warnings.warn(\n'}
+[13.372501] (py03_action) StdoutLine: {'line': b'running install_lib\n'}
+[13.402819] (py03_action) StdoutLine: {'line': b'running install_data\n'}
+[13.406773] (py03_action) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.422706] (py03_action) StdoutLine: {'line': b"removing '/home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.428532] (py03_action) StdoutLine: {'line': b'Copying ../../build/py03_action/py03_action.egg-info to /home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info\n'}
+[13.435782] (py03_action) StdoutLine: {'line': b'running install_scripts\n'}
+[13.447778] (-) TimerEvent: {}
+[13.548528] (-) TimerEvent: {}
+[13.592944] (py03_action) StdoutLine: {'line': b'Installing demo01_action_server_py script to /home/lhy/ws01_plumbing/install/py03_action/lib/py03_action\n'}
+[13.594041] (py03_action) StdoutLine: {'line': b'Installing demo02_action_client_py script to /home/lhy/ws01_plumbing/install/py03_action/lib/py03_action\n'}
+[13.594695] (py03_action) StdoutLine: {'line': b"writing list of installed files to '/home/lhy/ws01_plumbing/build/py03_action/install.log'\n"}
+[13.648636] (-) TimerEvent: {}
+[13.665757] (py03_action) CommandEnded: {'returncode': 0}
+[13.748825] (-) TimerEvent: {}
+[13.849591] (-) TimerEvent: {}
+[13.950111] (-) TimerEvent: {}
+[14.050730] (-) TimerEvent: {}
+[14.157804] (-) TimerEvent: {}
+[14.259525] (-) TimerEvent: {}
+[14.360548] (-) TimerEvent: {}
+[14.462129] (-) TimerEvent: {}
+[14.472959] (py03_action) JobEnded: {'identifier': 'py03_action', 'rc': 0}
+[14.482620] (-) EventReactorShutdown: {}

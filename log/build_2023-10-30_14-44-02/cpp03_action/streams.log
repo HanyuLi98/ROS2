@@ -1,0 +1,39 @@
+[0.077s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py02_service:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/lhy/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target demo02_action_client[0m
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target demo01_action_server[0m
+[0.150s] [ 25%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[0.150s] [ 75%] Built target demo02_action_client
+[3.589s] [01m[K/home/lhy/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[3.589s] [01m[K/home/lhy/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:68:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.589s]    68 | [01;35m[KServerGoalHandle<Progress>> goal_handle[m[K){
+[3.590s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.590s] 
+[3.590s] [01m[K/home/lhy/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_interfaces_demo::action::Progress> >)[m[K’:
+[3.590s] [01m[K/home/lhy/ws01_plumbing/src/cpp03_action/src/demo01_action_server.cpp:75:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.590s]    75 | [01;35m[KServerGoalHandle<Progress>> goal_handle[m[K){
+[3.590s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.590s] 
+[4.885s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[5.081s] [100%] Built target demo01_action_server
+[5.095s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py02_service:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/lhy/ws01_plumbing/build/cpp03_action -- -j8 -l8
+[5.139s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp03_action': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py02_service:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/lhy/ws01_plumbing/build/cpp03_action
+[5.150s] -- Install configuration: ""
+[5.150s] -- Installing: /home/lhy/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[5.151s] -- Set runtime path of "/home/lhy/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[5.152s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/lib/cpp03_action/demo02_action_client
+[5.152s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[5.152s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[5.152s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[5.152s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[5.153s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.sh
+[5.153s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[5.153s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.bash
+[5.153s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.sh
+[5.153s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[5.153s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[5.153s] -- Installing: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.dsv
+[5.161s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[5.162s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[5.162s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[5.162s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp03_action/share/cpp03_action/package.xml
+[5.164s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/cpp01_topic:/home/lhy/ws01_plumbing/install/py02_service:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/lhy/ws01_plumbing/build/cpp03_action

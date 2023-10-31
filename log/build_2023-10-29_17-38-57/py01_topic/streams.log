@@ -1,0 +1,29 @@
+[0.675s] Invoking command in '/home/lhy/ws01_plumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/lhy/ws01_plumbing/build/py01_topic/prefix_override:/home/lhy/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/lhy/ws01_plumbing/build/py01_topic/build install --record /home/lhy/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed
+[0.894s] running egg_info
+[0.894s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.894s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.895s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.895s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.895s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.896s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.897s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.897s] running build
+[0.897s] running build_py
+[0.897s] copying py01_topic/demo03_talker_stu_py.py -> /home/lhy/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.898s] running install
+[0.898s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.898s]   warnings.warn(
+[0.898s] running install_lib
+[0.899s] copying /home/lhy/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo03_talker_stu_py.py -> /home/lhy/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic
+[0.899s] byte-compiling /home/lhy/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic/demo03_talker_stu_py.py to demo03_talker_stu_py.cpython-310.pyc
+[0.900s] running install_data
+[0.900s] running install_egg_info
+[0.902s] removing '/home/lhy/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.902s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/lhy/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.903s] running install_scripts
+[0.925s] Installing demo01_talker_str_py script to /home/lhy/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.925s] Installing demo02_listener_str_py script to /home/lhy/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.925s] Installing demo03_talker_stu_py script to /home/lhy/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.925s] Installing demo04_listener_stu_py script to /home/lhy/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.926s] writing list of installed files to '/home/lhy/ws01_plumbing/build/py01_topic/install.log'
+[0.955s] Invoked command in '/home/lhy/ws01_plumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/lhy/ws01_plumbing/build/py01_topic/prefix_override:/home/lhy/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/lhy/ws01_plumbing/build/py01_topic/build install --record /home/lhy/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed

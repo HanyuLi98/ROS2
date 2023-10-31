@@ -1,0 +1,43 @@
+[1.700s] Invoking command in '/home/lhy/ws01_plumbing/src/py03_action': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/lhy/ws01_plumbing/build/py03_action/prefix_override:/home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/lhy/ws01_plumbing/build/py03_action/build install --record /home/lhy/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed
+[2.042s] running egg_info
+[2.043s] creating ../../build/py03_action/py03_action.egg-info
+[2.043s] writing ../../build/py03_action/py03_action.egg-info/PKG-INFO
+[2.044s] writing dependency_links to ../../build/py03_action/py03_action.egg-info/dependency_links.txt
+[2.044s] writing entry points to ../../build/py03_action/py03_action.egg-info/entry_points.txt
+[2.044s] writing requirements to ../../build/py03_action/py03_action.egg-info/requires.txt
+[2.044s] writing top-level names to ../../build/py03_action/py03_action.egg-info/top_level.txt
+[2.044s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[2.052s] reading manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[2.053s] writing manifest file '../../build/py03_action/py03_action.egg-info/SOURCES.txt'
+[2.053s] running build
+[2.053s] running build_py
+[2.054s] creating /home/lhy/ws01_plumbing/build/py03_action/build
+[2.054s] creating /home/lhy/ws01_plumbing/build/py03_action/build/lib
+[2.054s] creating /home/lhy/ws01_plumbing/build/py03_action/build/lib/py03_action
+[2.054s] copying py03_action/demo01_action_server_py.py -> /home/lhy/ws01_plumbing/build/py03_action/build/lib/py03_action
+[2.057s] copying py03_action/__init__.py -> /home/lhy/ws01_plumbing/build/py03_action/build/lib/py03_action
+[2.057s] copying py03_action/demo02_action_client_py.py -> /home/lhy/ws01_plumbing/build/py03_action/build/lib/py03_action
+[2.057s] running install
+[2.058s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.058s]   warnings.warn(
+[2.058s] running install_lib
+[2.060s] creating /home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[2.060s] copying /home/lhy/ws01_plumbing/build/py03_action/build/lib/py03_action/demo01_action_server_py.py -> /home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[2.060s] copying /home/lhy/ws01_plumbing/build/py03_action/build/lib/py03_action/__init__.py -> /home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[2.060s] copying /home/lhy/ws01_plumbing/build/py03_action/build/lib/py03_action/demo02_action_client_py.py -> /home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action
+[2.061s] byte-compiling /home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo01_action_server_py.py to demo01_action_server_py.cpython-310.pyc
+[2.061s] byte-compiling /home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/__init__.py to __init__.cpython-310.pyc
+[2.061s] byte-compiling /home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action/demo02_action_client_py.py to demo02_action_client_py.cpython-310.pyc
+[2.062s] running install_data
+[2.062s] creating /home/lhy/ws01_plumbing/install/py03_action/share/ament_index
+[2.063s] creating /home/lhy/ws01_plumbing/install/py03_action/share/ament_index/resource_index
+[2.063s] creating /home/lhy/ws01_plumbing/install/py03_action/share/ament_index/resource_index/packages
+[2.063s] copying resource/py03_action -> /home/lhy/ws01_plumbing/install/py03_action/share/ament_index/resource_index/packages
+[2.063s] copying package.xml -> /home/lhy/ws01_plumbing/install/py03_action/share/py03_action
+[2.063s] running install_egg_info
+[2.066s] Copying ../../build/py03_action/py03_action.egg-info to /home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages/py03_action-0.0.0-py3.10.egg-info
+[2.067s] running install_scripts
+[2.101s] Installing demo01_action_server_py script to /home/lhy/ws01_plumbing/install/py03_action/lib/py03_action
+[2.101s] Installing demo02_action_client_py script to /home/lhy/ws01_plumbing/install/py03_action/lib/py03_action
+[2.101s] writing list of installed files to '/home/lhy/ws01_plumbing/build/py03_action/install.log'
+[2.147s] Invoked command in '/home/lhy/ws01_plumbing/src/py03_action' returned '0': CMAKE_PREFIX_PATH=/home/lhy/ws01_plumbing/install/base_interfaces_demo:/home/lhy/ws01_plumbing/install/cpp02_service:/home/lhy/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/lhy/ws01_plumbing/build/py03_action/prefix_override:/home/lhy/ws01_plumbing/install/py03_action/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py03_action build --build-base /home/lhy/ws01_plumbing/build/py03_action/build install --record /home/lhy/ws01_plumbing/build/py03_action/install.log --single-version-externally-managed
