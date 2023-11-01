@@ -1,0 +1,30 @@
+[0.074s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhy/ws01_plumbing/install/py04_param:/home/lhy/ws01_plumbing/install/py03_action:/home/lhy/ws01_plumbing/install/py02_service:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/lhy/ws01_plumbing/build/cpp04_param -- -j8 -l8
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target demo02_param_client[0m
+[0.143s] [ 33%] Built target demo00_param
+[0.143s] [ 66%] Built target demo01_param_server
+[0.152s] [ 83%] [32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o[0m
+[3.914s] [100%] [32m[1mLinking CXX executable demo02_param_client[0m
+[4.051s] [100%] Built target demo02_param_client
+[4.064s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhy/ws01_plumbing/install/py04_param:/home/lhy/ws01_plumbing/install/py03_action:/home/lhy/ws01_plumbing/install/py02_service:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/lhy/ws01_plumbing/build/cpp04_param -- -j8 -l8
+[4.113s] Invoking command in '/home/lhy/ws01_plumbing/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhy/ws01_plumbing/install/py04_param:/home/lhy/ws01_plumbing/install/py03_action:/home/lhy/ws01_plumbing/install/py02_service:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/lhy/ws01_plumbing/build/cpp04_param
+[4.122s] -- Install configuration: ""
+[4.123s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param
+[4.123s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server
+[4.123s] -- Installing: /home/lhy/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client
+[4.124s] -- Set runtime path of "/home/lhy/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""
+[4.124s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[4.124s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[4.125s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[4.125s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[4.125s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh
+[4.125s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[4.125s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash
+[4.125s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh
+[4.125s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[4.125s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[4.125s] -- Installing: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv
+[4.126s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[4.126s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[4.126s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[4.126s] -- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml
+[4.127s] Invoked command in '/home/lhy/ws01_plumbing/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhy/ws01_plumbing/install/py04_param:/home/lhy/ws01_plumbing/install/py03_action:/home/lhy/ws01_plumbing/install/py02_service:/home/lhy/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/lhy/ws01_plumbing/build/cpp04_param

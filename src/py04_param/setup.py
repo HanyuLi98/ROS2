@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'demo00_param_py = py04_param.demo00_param_py:main'
+            'demo00_param_py = py04_param.demo00_param_py:main',
+            'demo01_param_server_py = py04_param.demo01_param_server_py:main'
         ],
     },
 )

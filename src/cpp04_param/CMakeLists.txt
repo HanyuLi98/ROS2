@@ -10,16 +10,35 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
 add_executable(demo00_param src/demo00_param.cpp)
+add_executable(demo01_param_server src/demo01_param_server.cpp)
+add_executable(demo02_param_client src/demo02_param_client.cpp)
+
+
 target_include_directories(demo00_param PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 target_compile_features(demo00_param PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
+
 ament_target_dependencies(
   demo00_param
   "rclcpp"
 )
+ament_target_dependencies(
+  demo01_param_server
+  "rclcpp"
+)
+ament_target_dependencies(
+  demo02_param_client
+  "rclcpp"
+)
 
-install(TARGETS demo00_param
+
+
+install(TARGETS 
+demo00_param
+demo01_param_server
+demo02_param_client
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000166] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000209] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000239] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000269] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000465] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000556] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000595] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000644] (-) JobUnselected: {'identifier': 'py03_action'}
+[0.000758] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000841] (cpp04_param) JobQueued: {'identifier': 'cpp04_param', 'dependencies': OrderedDict()}
+[0.000921] (cpp04_param) JobStarted: {'identifier': 'cpp04_param'}
+[0.056120] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'cmake'}
+[0.056872] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'build'}
+[0.057596] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lhy/ws01_plumbing/build/cpp04_param', '--', '-j8', '-l8'], 'cwd': '/home/lhy/ws01_plumbing/build/cpp04_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'lhy'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lhy'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1804'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=53a90bd7624c2d9c1abbdf85654160d7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lhy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lhy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lhy-Blade-Stealth:@/tmp/.ICE-unix/1804,unix/lhy-Blade-Stealth:/tmp/.ICE-unix/1804'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b4ae2e81_6b5d_41e4_93db_f1d91d3c82ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D0APD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-57ea1234e3.sock'), ('GNOME_TERMINAL_SERVICE', ':1.898'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lhy/ws01_plumbing/build/cpp04_param'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=53a90bd7624c2d9c1abbdf85654160d7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098694] (-) TimerEvent: {}
+[0.103726] (cpp04_param) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_param_client\x1b[0m\n'}
+[0.116357] (cpp04_param) StdoutLine: {'line': b'[ 66%] Built target demo01_param_server\n'}
+[0.116577] (cpp04_param) StdoutLine: {'line': b'[ 66%] Built target demo00_param\n'}
+[0.125538] (cpp04_param) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/demo02_param_client.dir/src/demo02_param_client.cpp.o\x1b[0m\n'}
+[0.198819] (-) TimerEvent: {}
+[0.299241] (-) TimerEvent: {}
+[0.399701] (-) TimerEvent: {}
+[0.500005] (-) TimerEvent: {}
+[0.600337] (-) TimerEvent: {}
+[0.700648] (-) TimerEvent: {}
+[0.800947] (-) TimerEvent: {}
+[0.901189] (-) TimerEvent: {}
+[1.001553] (-) TimerEvent: {}
+[1.101974] (-) TimerEvent: {}
+[1.202314] (-) TimerEvent: {}
+[1.302636] (-) TimerEvent: {}
+[1.402942] (-) TimerEvent: {}
+[1.503302] (-) TimerEvent: {}
+[1.603620] (-) TimerEvent: {}
+[1.704007] (-) TimerEvent: {}
+[1.804365] (-) TimerEvent: {}
+[1.904657] (-) TimerEvent: {}
+[2.004996] (-) TimerEvent: {}
+[2.105382] (-) TimerEvent: {}
+[2.205772] (-) TimerEvent: {}
+[2.306103] (-) TimerEvent: {}
+[2.406446] (-) TimerEvent: {}
+[2.506860] (-) TimerEvent: {}
+[2.607176] (-) TimerEvent: {}
+[2.707541] (-) TimerEvent: {}
+[2.807921] (-) TimerEvent: {}
+[2.908319] (-) TimerEvent: {}
+[3.008666] (-) TimerEvent: {}
+[3.109004] (-) TimerEvent: {}
+[3.209306] (-) TimerEvent: {}
+[3.309610] (-) TimerEvent: {}
+[3.409880] (-) TimerEvent: {}
+[3.510170] (-) TimerEvent: {}
+[3.610443] (-) TimerEvent: {}
+[3.710752] (-) TimerEvent: {}
+[3.811051] (-) TimerEvent: {}
+[3.911364] (-) TimerEvent: {}
+[4.011667] (-) TimerEvent: {}
+[4.111977] (-) TimerEvent: {}
+[4.212275] (-) TimerEvent: {}
+[4.312633] (-) TimerEvent: {}
+[4.314372] (cpp04_param) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_param_client\x1b[0m\n'}
+[4.412762] (-) TimerEvent: {}
+[4.473102] (cpp04_param) StdoutLine: {'line': b'[100%] Built target demo02_param_client\n'}
+[4.488716] (cpp04_param) CommandEnded: {'returncode': 0}
+[4.512877] (-) TimerEvent: {}
+[4.524718] (cpp04_param) JobProgress: {'identifier': 'cpp04_param', 'progress': 'install'}
+[4.535558] (cpp04_param) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lhy/ws01_plumbing/build/cpp04_param'], 'cwd': '/home/lhy/ws01_plumbing/build/cpp04_param', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'lhy'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lhy'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1804'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=53a90bd7624c2d9c1abbdf85654160d7'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lhy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lhy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lhy-Blade-Stealth:@/tmp/.ICE-unix/1804,unix/lhy-Blade-Stealth:/tmp/.ICE-unix/1804'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b4ae2e81_6b5d_41e4_93db_f1d91d3c82ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D0APD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-57ea1234e3.sock'), ('GNOME_TERMINAL_SERVICE', ':1.898'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lhy/ws01_plumbing/build/cpp04_param'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=53a90bd7624c2d9c1abbdf85654160d7'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.544887] (cpp04_param) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.545391] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo00_param\n'}
+[4.545613] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo01_param_server\n'}
+[4.545955] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/lhy/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client\n'}
+[4.546932] (cpp04_param) StdoutLine: {'line': b'-- Set runtime path of "/home/lhy/ws01_plumbing/install/cpp04_param/lib/cpp04_param/demo02_param_client" to ""\n'}
+[4.547232] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param\n'}
+[4.547363] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param\n'}
+[4.547456] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh\n'}
+[4.547567] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv\n'}
+[4.547635] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.sh\n'}
+[4.547701] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/environment/path.dsv\n'}
+[4.547782] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.bash\n'}
+[4.547879] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.sh\n'}
+[4.547964] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.zsh\n'}
+[4.548030] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/local_setup.dsv\n'}
+[4.548094] (cpp04_param) StdoutLine: {'line': b'-- Installing: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.dsv\n'}
+[4.548158] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param\n'}
+[4.548222] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake\n'}
+[4.548286] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake\n'}
+[4.548350] (cpp04_param) StdoutLine: {'line': b'-- Up-to-date: /home/lhy/ws01_plumbing/install/cpp04_param/share/cpp04_param/package.xml\n'}
+[4.550205] (cpp04_param) CommandEnded: {'returncode': 0}
+[4.612988] (-) TimerEvent: {}
+[4.706856] (cpp04_param) JobEnded: {'identifier': 'cpp04_param', 'rc': 0}
+[4.707598] (-) EventReactorShutdown: {}
